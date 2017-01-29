@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Welcome Page</title>
+	<title>Welcome Page For User</title>
 </head>
 <body>
 	<h2>Welcome <?php echo $this->session->userdata['first_name']; ?> </h2>
